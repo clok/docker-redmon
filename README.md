@@ -17,5 +17,6 @@ $ docker run -P -e REDIS_URL=<the redis url> -it redmon:dev
 ## Configuration
 
 ```
-REDIS_URL: The redis host URL (required)
+REDIS_URL: The redis host URL
+HTTP_AUTH: Set a simple HTTP Auth username and password (format: `user:pass`)
 ```
