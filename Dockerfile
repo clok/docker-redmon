@@ -1,4 +1,4 @@
-FROM ruby:2.7
+FROM ruby:3.3
 MAINTAINER Derek Smith <drsmith.phys@gmail.com>
 
 # Make ap dir
